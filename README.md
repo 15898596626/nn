@@ -8,6 +8,12 @@
 ## 环境配置
 * 平台：Windows 10/11，Ubuntu 20.04/22.04
 * 软件：Python 3.7-3.12（需支持3.7）、Pytorch（不使用Tensorflow）
+* Carla版本：0.9.13（推荐）
+* 关键依赖：
+  - carla==0.9.13
+  - pygame（用于可视化）
+  - opencv-python（用于图像处理）
+  - torch==1.12.1（与Carla 0.9.13兼容的版本）
 
 测试生成的文档：
 1. 安装python 3.11，并使用以下命令安装`mkdocs`和相关依赖：
